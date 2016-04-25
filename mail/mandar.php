@@ -34,7 +34,7 @@ $mail->Subject = "Sorteo";
   $mail->isHTML( TRUE );
 $mail->MsgHTML($body);
 $mail->AddAddress($address, $name);
- $mail->SMTPDebug = 2;
+
    $mail->WordWrap    = 900; 
    //$mail->Timeout=30;
  
