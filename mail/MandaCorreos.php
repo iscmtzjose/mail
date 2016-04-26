@@ -7,12 +7,10 @@
 	ParseClient::initialize('cC2UDoJuBtf19dZYwzns0ifp04jx8U353J3lOmb2', '7Lq7uQfoJfnsPmJCxcBTVytfOZrecVjUpyoNwlP3', 'VaTxoMQF85SHDLyvQoiArprBKnyTCRnuLJiWfiLr');
 	use Parse\ParseObject;
 
-	echo "hola 1";//////////////////////////
 	//allow_url_include =true;
 	require_once ('mandarMetodo.php');
 	
 	$a = new madarMetodo();
-	echo "hola 2";
 	
 	echo $b = $a->Send("mail@pruebamail.com");
 	$query = new ParseQuery("lista");
@@ -23,11 +21,6 @@
 		echo $mail=$object->get('email');
 		echo $b = $a->Send($mail);
 	}
-	
-		echo "hola 3";
-	
-	
-		echo "hola 4";
 	
 	$query = new ParseQuery("lista");
 	$query->equalTo("mandado", "no");
@@ -42,9 +35,7 @@
 			echo 'No se pudo Ingresar la Pregunta Error: ' . $ex->getMessage();
 		}
 	}	
-	
 
-	echo "hola 5";
 	
 	
 	
