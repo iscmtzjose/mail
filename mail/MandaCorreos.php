@@ -19,7 +19,7 @@
 	$results = $query->find();
 	for ($i = 0; $i < count($results); $i++) {
 		$object = $results[$i];
-		echo $mail=$object->get('mail');
+		echo $mail=$object->get('email');
 		echo $b = $a->Send($mail);
 	}
 	
