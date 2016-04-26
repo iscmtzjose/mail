@@ -11,7 +11,7 @@
 	//allow_url_include =true;
 	require_once ('mandarMetodo.php');
 	
-	$a = new mandar();
+	$a = new madarMetodo();
 	$mail=array();
 	echo "hola 2";
 	

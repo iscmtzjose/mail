@@ -1,7 +1,7 @@
 <?php
 	require_once('library/class.phpmailer.php');
   
-	class madar{
+	class madarMetodo{
 		public function Send($address){
 			$name="Cliente";
 			$body='
