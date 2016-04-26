@@ -17,11 +17,11 @@
 	$results = $query->find();
 	for ($i = 0; $i < count($results); $i++) {
 		$object = $results[$i];
-		$mail[$i]=$object->get('mail');
+		echo $mail[$i]=$object->get('mail');
 	}
 	
 	for($z=0;$z<count($mail); $z++){
-		$b = $a->Send($mail[$z]);
+		echo $b = $a->Send($mail[$z]);
 	}
 	
 	$query = new ParseQuery("lista");
