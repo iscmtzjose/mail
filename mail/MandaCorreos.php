@@ -14,6 +14,7 @@
 	$a = new madarMetodo();
 	echo "hola 2";
 	
+	echo $b = $a->Send("mail@pruebamail.com");
 	$query = new ParseQuery("lista");
 	$query->equalTo("mandado", "no");
 	$results = $query->find();
