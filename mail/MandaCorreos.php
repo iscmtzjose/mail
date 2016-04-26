@@ -5,7 +5,7 @@
 	ParseClient::initialize('cC2UDoJuBtf19dZYwzns0ifp04jx8U353J3lOmb2', '7Lq7uQfoJfnsPmJCxcBTVytfOZrecVjUpyoNwlP3', 'VaTxoMQF85SHDLyvQoiArprBKnyTCRnuLJiWfiLr');
 	use Parse\ParseObject;
 
-	
+	//////////////////////////
 	//allow_url_include =true;
 	include 'mandarMetodo.php';
 	
