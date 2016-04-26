@@ -7,7 +7,7 @@
 
 	
 	//allow_url_include =true;
-	include 'http://www.prueba-app-000001-2.azurewebsites.net/mail/mandarMetodo.php';
+	include 'mandarMetodo.php';
 	
 	$a = new mandar();
 	$mail=array();
