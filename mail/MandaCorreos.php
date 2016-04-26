@@ -12,7 +12,6 @@
 	require_once ('mandarMetodo.php');
 	
 	$a = new madarMetodo();
-	$mail=array();
 	echo "hola 2";
 	
 	$query = new ParseQuery("lista");
@@ -20,14 +19,12 @@
 	$results = $query->find();
 	for ($i = 0; $i < count($results); $i++) {
 		$object = $results[$i];
-		echo $mail[$i]=$object->get('mail');
+		echo $mail=$object->get('mail');
+		echo $b = $a->Send($mail);
 	}
 	
 		echo "hola 3";
 	
-	for($z=0;$z<count($mail); $z++){
-		echo $b = $a->Send($mail[$z]);
-	}
 	
 		echo "hola 4";
 	
