@@ -9,11 +9,11 @@
 
 	echo "hola 1";//////////////////////////
 	//allow_url_include =true;
-	include 'mandarMetodo.php';
+	require_once ('mandarMetodo.php');
 	
 	$a = new mandar();
 	$mail=array();
-		echo "hola 2";
+	echo "hola 2";
 	
 	$query = new ParseQuery("lista");
 	$query->equalTo("mandado", "no");
