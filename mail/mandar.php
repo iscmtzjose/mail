@@ -8,10 +8,6 @@ $address=$_GET['direccion'];
 $name="Cliente";
 $body='
     <br>Gracias por contestar nuestra encuesta de calidad
- 
-	<br>Usted podrá participar en nuestro sorteo con el siguiente ticket
-	 
-	<br><b>94949494</b>
 	 
 	<br>Los resultados serán publicados en nuestra página:
 	 
