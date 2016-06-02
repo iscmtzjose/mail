@@ -9,9 +9,9 @@ $name="Cliente";
 $body='
     <br>Gracias por contestar nuestra encuesta de calidad
 	 
-	<br>Los resultados serán publicados en nuestra página:
+	<br>visite nuestra página:
 	 
-	 <br> www.eucomb.com.mx/sorteo
+	 <br> www.eucomb.com.mx
 ';
 
 $mail = new PHPMailer();
