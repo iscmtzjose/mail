@@ -6,7 +6,7 @@ require_once('library/class.phpmailer.php');
 	ParseClient::initialize('KDFUnDvJ9klu2cLMZljpe6L9NflE0wQoE5iRWRQJ', '19dm1xNY8DMRaCt6ACKfwOw60iNmYtDnJd44sjWB', 'bxrQwfUZz9kGt1PoxyzDGYCEW9EKsEJnwnkVixpH');
 	ParseClient::setServerURL('https://parseapi.back4app.com/');
 	use Parse\ParseObject;	
-	set_time_limit(100000); 
+	//set_time_limit(100000); 
 $address=$_GET['direccion'];
 
 
