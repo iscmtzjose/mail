@@ -26,13 +26,9 @@ $mail->Password = "eucomb07";
 $mail->SetFrom("factura-electronica@eucomb.com.mx", "EUCOMB");
 $mail->Subject = "Reporte Mensual  Año 2016_06";
   
-  $mail->AddAttachment("http://prueba-app.16mb.com/b4a2/Reportes/junio2016.pdf","Reporte Mensual  Año 2016_06");
+  $mail->AddAttachment("http://prueba-app.16mb.com/b4a2/Reportes/junio2016.pdf");
   $mail->isHTML( TRUE );
-//$mail->MsgHTML($body);
-
-
-¿
-$mail->Body = $body;
+$mail->MsgHTML($body);
 $mail->AddAddress($address, $name);
 
    $mail->WordWrap    = 900; 
