@@ -24,7 +24,7 @@ $mail->SMTPSecure = 'ssh';
 $mail->Username = "factura-electronica@eucomb.com.mx";
 $mail->Password = "eucomb07";
 $mail->SetFrom("factura-electronica@eucomb.com.mx", "EUCOMB");
-$mail->Subject = "Reporte Mensual  2016-06";
+$mail->Subject = "Reporte mensual de encuestas 2016-06";
   
   $mail->AddAttachment("junio2016.pdf");
   $mail->isHTML( TRUE );
