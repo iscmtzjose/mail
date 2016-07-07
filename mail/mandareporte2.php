@@ -9,8 +9,8 @@ $name="Gerencia";
 
 //$body=$_POST['body'];
 
-$archivo = 'junio2016.pdf';
-$body='<a href="junio2016.pdf" TARGET="_blank">Reporte Mensual</a>';
+$archivo = 'julio2016.pdf';
+$body='<a href="julio2016.pdf" TARGET="_blank">Reporte Mensual</a>';
 
 $mail = new PHPMailer();
 
@@ -24,9 +24,9 @@ $mail->SMTPSecure = 'ssh';
 $mail->Username = "factura-electronica@eucomb.com.mx";
 $mail->Password = "eucomb07";
 $mail->SetFrom("factura-electronica@eucomb.com.mx", "EUCOMB");
-$mail->Subject = "Reporte mensual de encuestas 2016-06";
+$mail->Subject = "Reporte mensual de encuestas 2016-07";
   
-  $mail->AddAttachment("junio2016.pdf");
+  $mail->AddAttachment("julio2016.pdf");
   $mail->isHTML( TRUE );
 $mail->MsgHTML($body);
 $mail->AddAddress($address, $name);
